@@ -58,7 +58,7 @@ panorama2.add(infoicon2.main)
 //event-click ikony-obrazek
 infoicon2.element.addEventListener('pointerdown', () => {
     console.log('pointer clicked');
-    const infodiv2 = new invoDiv('./picture1_deformacja.png');
+    const infodiv2 = new invoDiv('./picture1_ubytek.png');
     document.body.appendChild(infodiv2.main)
     infodiv2.main.style.visibility = 'visible';
     infoicon2.element.style.visibility = 'hidden';
@@ -80,7 +80,7 @@ panorama2.add(infoicon3.main)
 //event-click ikony-obrazek
 infoicon3.element.addEventListener('pointerdown', () => {
     console.log('pointer clicked');
-    const infodiv3 = new invoDiv('./picture3_korozja.png');
+    const infodiv3 = new invoDiv('./picture2_uszkodzenie.png');
     document.body.appendChild(infodiv3.main)
     infodiv3.main.style.visibility = 'visible';
     infoicon3.element.style.visibility = 'hidden';

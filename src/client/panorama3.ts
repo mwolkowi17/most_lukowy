@@ -33,7 +33,7 @@ panorama3.add(infoicon4.main)
 //event-click ikony-obrazek
 infoicon4.element.addEventListener('pointerdown', () => {
     console.log('pointer clicked');
-    const infodiv4 = new invoDiv('./picture2_roslinnosc.png');
+    const infodiv4 = new invoDiv('./picture3_przeciek.png');
     document.body.appendChild(infodiv4.main)
     infodiv4.main.style.visibility = 'visible';
     infoicon4.element.style.visibility = 'hidden';
