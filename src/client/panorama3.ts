@@ -1,4 +1,4 @@
-import { create_icon_left } from './navigation_icon_left';
+import { create_icon } from './navigation_icon';
 import { scene } from './client';
 import { panorama2,navicon2,navicon3 } from './panorama2';
 import { panorama_form } from './panorama_create';
@@ -10,7 +10,7 @@ import { invoDiv } from './info_div';
 export const panorama3 = new panorama_form('./lukowy1_c.png').main;
 
 //dodawanie ikony nawigacyjnej
-export const navicon4 = new create_icon_left(20,-18,0,'nav4');
+export const navicon4 = new create_icon(0, -13, 20,'nav4');
 panorama3.add(navicon4.main)
 
 //event-click ikony nawigacyjnej
@@ -27,7 +27,7 @@ navicon4.element.addEventListener('pointerdown', () => {
 })
 
 //dodawanie ikony-obrazek
-export const infoicon4 = new create_info_icon(0, 0, -20, 'imageInfo4')
+export const infoicon4 = new create_info_icon(15, 12, -20, 'imageInfo4')
 panorama3.add(infoicon4.main)
 
 //event-click ikony-obrazek

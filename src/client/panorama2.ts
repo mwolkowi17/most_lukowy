@@ -12,7 +12,7 @@ import { invoDiv } from './info_div';
 export const panorama2 = new panorama_form('./lukowy1_b.png').main
 
 //dodawanie ikony nawigacyjnej
-export const navicon2 = new create_icon_left(-35, 4, -3, 'nav2');
+export const navicon2 = new create_icon(0, -20, -30, 'nav2');
 export const navicon3 = new create_icon(0, -13, 40, 'nav3');
 
 panorama2.add(navicon2.main);
@@ -51,7 +51,7 @@ navicon3.element.addEventListener('pointerdown', () => {
 })
 
 //dodawanie ikony-obrazek
-export const infoicon2 = new create_info_icon(-8, 15, -10, 'imageInfo1')
+export const infoicon2 = new create_info_icon(-28, -7, -30, 'imageInfo1')
 
 panorama2.add(infoicon2.main)
 
@@ -74,7 +74,7 @@ infoicon2.element.addEventListener('pointerdown', () => {
 
 
 //dodawanie ikony-obrazek
-export const infoicon3 = new create_info_icon(38, 17, -10, 'imageInfo2')
+export const infoicon3 = new create_info_icon(48, 15, -30, 'imageInfo2')
 panorama2.add(infoicon3.main)
 
 //event-click ikony-obrazek
